@@ -8,18 +8,22 @@ import java.util.Scanner;
 
 public class NactiZeVstupu {
     public static void main(String[] args) {
-        File file = new File("vstup.txt");
+        File file = new File("Uvod_4_9/vstup.txt");
         ArrayList<Integer> numbers = new ArrayList<>();
 
-        try (Scanner input = new Scanner("vstup.txt")) {
+        try (Scanner input = new Scanner(file)) {
             input.useDelimiter(",");
-            while (input.hasNext()) {
+            while (input.hasNextInt()) {
                 numbers.add(input.nextInt());
             }
+        } catch (FileNotFoundException e) {
+            System.err.println("The file vstup.txt was not found. Please make sure it exists in the project directory.");
+            return;
         }
 
-        if(numbers.isEmpty()) {
-            System.out.println("There are no numbers in the vstup.txt");
+        if (numbers.isEmpty()) {
+            System.out.println("There are no numbers in the file or the file doesn't exist.");
+            return;
         }
 
         Collections.sort(numbers);
@@ -33,6 +37,6 @@ public class NactiZeVstupu {
             median = numbers.get(size / 2);
         }
 
-        System.out.println("Medián: " + median);
+        System.out.println("Median: " + median);
     }
 }
