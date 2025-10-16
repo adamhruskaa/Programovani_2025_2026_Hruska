@@ -1,11 +1,8 @@
-package Asymetricke_Sifry;
+package Asymetricke_Sifry_9_10;
 
 import javax.crypto.Cipher;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 

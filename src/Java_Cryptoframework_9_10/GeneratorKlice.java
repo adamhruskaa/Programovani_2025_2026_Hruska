@@ -1,4 +1,4 @@
-package Java_Cryptoframework;
+package Java_Cryptoframework_9_10;
 
 import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
