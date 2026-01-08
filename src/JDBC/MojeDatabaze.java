@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
         System.out.println(lidi);
 
-        try (Connection conn = DriverManager.getConnection("jdbc:sqlite:test.db")) {
+        try (Connection conn = DriverManager.getConnection("jdbc:postgresql:db3963", "db3963", "programovani");) {
 
             try (Statement stmt = conn.createStatement()) {
                 stmt.execute(" CREATE TABLE IF NOT EXISTS clovek ( jmeno VARCHAR, primeni VARCHAR, rocnik INTEGER)");
