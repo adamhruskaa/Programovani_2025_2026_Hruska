@@ -1,0 +1,10 @@
+Jmeno    Vek    Plat    Mesto       Oddeleni
+Karel    25     28000   Praha       IT
+Marie    32     42000   Brno        HR
+Tomas    41     55000   Ostrava     IT
+Jana     28     35000   Plzen       Finance
+Lukas    37     48000   Liberec     HR
+Petra    23     25000   Olomouc     IT
+Martin   50     62000   Praha       Finance
+Eva      30     39000   Brno        HR
+NONE     AVG    MAX     SORT        PRINT

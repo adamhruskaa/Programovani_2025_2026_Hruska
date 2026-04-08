@@ -1,0 +1,6 @@
+Jmeno    Vek    Plat    Mesto
+Karel    25     28000   Praha
+Marie    32     42000
+Tomas    41     55000   Ostrava
+Jana     28     35000   Plzen
+NONE     AVG    MAX     SORT
